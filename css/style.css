@@ -1,16 +1,21 @@
 body{
 	background-color: #EBE8E4;
-	color: #222;
+	color: #003399;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 20px;
+}
+
+form{
+	text-align: right;
+	margin: 8px 22px 8px 22px;
 }
 nav{
-	background-color: #fff;
+	background-color: #404040;
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	color: #888;
+	color: #222;
 	display: block;
 	margin: 8px 22px 8px 22px;
 	overflow: hidden;
