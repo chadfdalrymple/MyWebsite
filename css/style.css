@@ -4,11 +4,7 @@ body{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-}
-
-form{
-	text-align: center;
-	margin: 8px 22px 8px 22px;
+	margin: 0 auto;
 }
 
 nav{
@@ -18,9 +14,8 @@ nav{
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	color: #222;
 	display: block;
-	margin: 8px 22px 8px 22px;
 	overflow: hidden;
-	width: 97%;
+	width: 100%;
 	text-align: center;
 }
 nav ul {
