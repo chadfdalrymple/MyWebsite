@@ -7,9 +7,10 @@ body{
 }
 
 form{
-	text-align: right;
+	text-align: center;
 	margin: 8px 22px 8px 22px;
 }
+
 nav{
 	background-color: #404040;
 	border: 1px solid #dedede;
@@ -81,7 +82,7 @@ nav > ul > li:hover > a {
  	display: none;
  	margin: 0;
  	opacity: 0;
- 	position: absolute;
+ 	position: fixed;
  	width: 165px;
  	visibility: hidden;
  	z-index: 100;
