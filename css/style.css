@@ -178,3 +178,8 @@ p {
 	text-align: center;
 	padding: 5px;
 }
+
+section {
+	float: left;
+	width: 60%
+}
