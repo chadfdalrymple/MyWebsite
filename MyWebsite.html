@@ -1,12 +1,30 @@
 <!doctype html system>
 <head>
+	<link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+<script src="headsupgrid/jquery-1.6.2.min.js"></script>
+<script src="headsupgrid/hugrid.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        pageUnits = 'px';
+        colUnits = 'px';
+        pagewidth = 960;
+        columns = 6;
+        columnwidth = 140;
+        gutterwidth = 24;
+        pagetopmargin = 35;
+        rowheight = 20;
+        gridonload = 'off';
+        makehugrid();
+        setgridonload();
+    });
+</script>
 	<link rel="stylesheet" href="css/style.css">
 <title>My Page</title>
 <nav>
 	<ul>
 		<li><a href="file:///C:/Users/Chad/Desktop/GitHub/MyWebsite/MyWebsite/MyWebsite.html">Home</a></li>
 		<li>
-			<a href="work.html">Work <span class="caret"></span></a>
+			<a href="work.html">Work<span class="caret"></span></a>
 			<div>
 				<ul>
 					<li><a href="work.html#blog">Blog</a></li>
