@@ -110,6 +110,9 @@ h1 {
 	color: #222
 }
 
+address {
+http://reservation.worldweb.com/Bookings-nr105/record-edit.html?command=roomsearch&access_code=&adminmode=0&area_id=&customer_id=&date_from=2015-07-24&date_to=2015-07-26&exchange_rates=USD&external_customer_id=&fake_incomingcheckbox=searchfor_barbeque&fake_incomingcheckbox=searchfor_lakefront&fake_incomingcheckbox=searchfor_lakeview&fake_incomingcheckbox=searchfor_petsallowed&folio_id=&guest_email=&guest_password=&hotel_id=980&language=english&listing_id=980&mode=command&num_adults=8&num_nights=2&reservationcode_id=&sourcecode_id=&table=hotels&transaction_id=-1&user_click_id=122419491	
+}
 h1 {
 	font-family: HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 24px;
@@ -149,9 +152,9 @@ a {
 	line-height: 26px
 }
 IMG.displayed {
-	display: block;
-	margin-left: auto;
-	margin-right: auto
+	display: banner;
+	margin-left: 0%;
+	margin-right: 0%
 }
 
 p {
@@ -180,6 +183,44 @@ p {
 }
 
 section {
-	float: left;
-	width: 60%
+  float: center;
+  width: 100%;
+}
+
+.parallax {
+  perspective: 15px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 3;
+  right: 5;
+  bottom: 3;
+  left: 5;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-3px);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-3px) scale(2);
+}
+
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parallax__group {
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
 }
