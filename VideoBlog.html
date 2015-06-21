@@ -1,0 +1,44 @@
+<!doctype html system>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+<title>My Page</title>
+<nav>
+	<ul>
+		<li><a href="file:///C:/Users/Chad/Desktop/GitHub/MyWebsite/MyWebsite/MyWebsite.html">Home</a></li>
+		<li>
+			<a href="work.html">Work<span class="caret"></span></a>
+			<div>
+				<ul>
+					<li><a href="work.html#blog">Blog</a></li>
+					<li><a href="work.html#news">News</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="about.html">About</a></li>
+		<li>
+			<a href="contact.html">Contact Me <span class="caret"></span></a>
+			<div>
+				<ul>
+					<li><a href="ContactMe_Tab_Nav.html">message</a></li>
+					<li><a href="contact.html#781 917 5340">781 917 5340</a></li>
+				</ul>
+			</div>
+		</li>	
+</nav>
+<body>
+	<iframe width="560" height="300" src="https://youtube.com/embed/S7aM7be4t3Y"  frameborder=5 allowfullscreen></iframe>
+</body>
+var video;
+ 
+function init() {
+   // function called when the page is loaded
+   video = document.querySelector("#myVideo");
+   // For initial value
+   video.width = window.innerWidth;
+   video.height = window.innerHeight;
+   // For dealing with window resize
+   window.onresize = function() {
+       video.width = window.innerWidth;
+       video.height = window.innerHeight;
+   };
+}

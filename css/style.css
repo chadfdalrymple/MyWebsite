@@ -110,9 +110,7 @@ h1 {
 	color: #222
 }
 
-address {
-http://reservation.worldweb.com/Bookings-nr105/record-edit.html?command=roomsearch&access_code=&adminmode=0&area_id=&customer_id=&date_from=2015-07-24&date_to=2015-07-26&exchange_rates=USD&external_customer_id=&fake_incomingcheckbox=searchfor_barbeque&fake_incomingcheckbox=searchfor_lakefront&fake_incomingcheckbox=searchfor_lakeview&fake_incomingcheckbox=searchfor_petsallowed&folio_id=&guest_email=&guest_password=&hotel_id=980&language=english&listing_id=980&mode=command&num_adults=8&num_nights=2&reservationcode_id=&sourcecode_id=&table=hotels&transaction_id=-1&user_click_id=122419491	
-}
+
 h1 {
 	font-family: HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 24px;
@@ -223,4 +221,9 @@ section {
 
 .parallax__group {
     transform: translate3d(700px, 0, -800px) rotateY(30deg);
+}
+
+body {
+	float: center;
+	width: 100%;
 }
